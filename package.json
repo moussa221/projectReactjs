@@ -22,6 +22,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "firebase": "^8.4.1",
+    "firebase-tools": "^9.12.1",
     "ra-data-simple-rest": "^3.13.4",
     "react": "^17.0.2",
     "react-admin": "^3.14.4",
@@ -45,7 +46,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
